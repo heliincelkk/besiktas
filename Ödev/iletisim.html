@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İletişim</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="anasayfa.html">Ana Sayfa</a></li>
+      <li><a href="tarifler.html">Tarifler</a></li>
+      <li><a href="menuler.html">Menüler</a></li>
+      <li><a href="nepisirsem.html">Ne Pişirsem?</a></li>
+      <li><a href="kaloriler.html">Kaloriler</a></li>
+      <li><a href="iletisim.html">Soru-Cevap</a></li>
+    </ul>
+  </nav>
+
+  <br><br>
+  <h1>E-posta ile İletişim Formu</h1>
+  <br><br>
+
+  <form action="mailto:helininmutfagı@gmail.com" method="_post" enctype="text/">
+    <label for="name">Adınız:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">E-posta Adresiniz:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Lütfen Mesajınızı Yazınız:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+    <input type="submit" value="Soruyu Mail Olarak Gönder">
+    <input type="reset" value="Temizle">
+  </form>
+
+  <footer>
+    <h3>Helin</h3>
+  </footer>
+
+</body>
+
+</html>
